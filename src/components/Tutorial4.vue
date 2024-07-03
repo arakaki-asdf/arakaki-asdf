@@ -16,9 +16,7 @@ function onInput(e) {
 </script>
 
 <template>
-    <input v-bind:value="text"
-        v-on:input="onInput"
-        placeholder="Type here">
+    <input v-bind:value="text" v-on:input="onInput" placeholder="Type here">
     <p>{{ text }}</p>
 </template>
 
