@@ -1,7 +1,7 @@
 
 <script setup>
   // import Tutorial1 from './components/Tutorial1.vue'
-  import Tutorial9 from './components/Tutorial9.vue'
+  import Tutorial from './components/Tutorial13.vue'
 </script>
 
 <style scoped>
@@ -20,6 +20,6 @@
 <template>
   <div id="app">
     <!-- <ChildComponent></ChildComponent> -->
-     <Tutorial9></Tutorial9>
+     <Tutorial></Tutorial>
   </div>
 </template>
