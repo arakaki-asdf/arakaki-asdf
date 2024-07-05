@@ -1,7 +1,7 @@
 
 <script setup>
   // import Tutorial1 from './components/Tutorial1.vue'
-  import Tutorial from './components/Tutorial14.vue'
+  import Tutorial from './components/Tutorials/Tutorial14.vue'
 </script>
 
 <style scoped>
@@ -23,3 +23,28 @@
      <Tutorial></Tutorial>
   </div>
 </template>
+
+<style scoped>
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  overflow: hidden;
+  flex: 1;
+}
+
+.sidebar:hover {
+  overflow: auto;
+}
+
+.main {
+  overflow: auto;
+  flex: 2;
+}
+
+.box {
+  height: 150vh;
+}
+</style>
