@@ -1,7 +1,7 @@
 
 <script setup>
   // import Tutorial1 from './components/Tutorial1.vue'
-  import Tutorial from './components/Tutorial13.vue'
+  import Tutorial from './components/Tutorial14.vue'
 </script>
 
 <style scoped>
