@@ -12,7 +12,6 @@ console.log(names)
 
 async function watchMemberType() {
   // 切り替わったことを発火
-  console.log("change member type")
   emit('response', memberType.value)
 }
 

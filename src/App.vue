@@ -18,6 +18,8 @@ import Tutorial11 from './components/Tutorials/Tutorial11.vue'
 import Tutorial12 from './components/Tutorials/Tutorial12.vue'
 import Tutorial13 from './components/Tutorials/Tutorial13.vue'
 import Tutorial14 from './components/Tutorials/Tutorial14.vue'
+import Watch_WatchEffect from './components/Samples/Watch_WatchEffect.vue'
+import Ref_ShallowRef from './components/Samples/Ref_ShallowRef.vue'
 
 const compList = [
   Tutorial1,
@@ -34,6 +36,8 @@ const compList = [
   Tutorial12,
   Tutorial13,
   Tutorial14,
+  Watch_WatchEffect,
+  Ref_ShallowRef,
 ]
 // TODO: refからshallowRefに変えるとエラーが出なくなった。後で調べる
 const currentComp = shallowRef(Tutorial1);
